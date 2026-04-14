@@ -10,11 +10,37 @@
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 	backdrop-filter: blur(6px);
 	text-align: left;
+	color: #111111;
+	color-scheme: light;
 }
 
 .controls-panel h3 {
 	margin: 0 0 12px;
 	font-size: 16px;
+}
+
+.control-label {
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 10px 0 6px;
+	color: #2b2b2b;
+}
+
+.controls-panel select {
+	width: 100%;
+	padding: 7px 9px;
+	border: 1px solid #d3d3d3;
+	border-radius: 8px;
+	background: #fff;
+	color: #111111;
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+
+.controls-panel option {
+	background: #ffffff;
+	color: #111111;
 }
 
 .color-group {
@@ -34,6 +60,31 @@
 
 .controls-panel input[type='range'] {
 	width: 100%;
+}
+
+.figure-counter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 0 6px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.counter-buttons {
+	display: flex;
+	gap: 6px;
+}
+
+.counter-buttons button {
+	width: 28px;
+	height: 28px;
+	border: 1px solid #c7c7c7;
+	background: #fff;
+	border-radius: 8px;
+	font-size: 18px;
+	line-height: 1;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {
