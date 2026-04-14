@@ -1,0 +1,47 @@
+.controls-panel {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 10;
+	width: 240px;
+	padding: 14px;
+	border-radius: 12px;
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(6px);
+	text-align: left;
+}
+
+.controls-panel h3 {
+	margin: 0 0 12px;
+	font-size: 16px;
+}
+
+.color-group {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 12px;
+}
+
+.color-group button {
+	width: 34px;
+	height: 34px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.controls-panel input[type='range'] {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.controls-panel {
+		right: 12px;
+		left: 12px;
+		width: auto;
+		top: auto;
+		bottom: 12px;
+	}
+}
