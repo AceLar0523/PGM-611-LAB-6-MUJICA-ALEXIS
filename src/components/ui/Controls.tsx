@@ -11,7 +11,7 @@ export const Controls = ({ onColor, onMetal, metal }: ControlsProps) => {
         <div className="controls-panel">
             <h3>Configuracion</h3>
             <div className="color-group">
-                {['red', 'green', 'blue'].map((c) => (
+                {['#ffffff', '#00ff00', '#0000ff'].map((c) => (
                     <button
                         key={c}
                         onClick={() => onColor(c)}
